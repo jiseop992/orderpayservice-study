@@ -1,0 +1,65 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# === Java ===
+*.class
+*.jar
+*.war
+
+# === 로그 및 임시 파일 ===
+*.log
+*.tmp
+logs/
+test-output/
+jacoco.exec
+
+# === 환경 변수 및 민감 파일 ===
+.env
+application-*.yml
+application-*.properties
+*.pem
+*.crt
+*.key
+
+# === Docker / Kubernetes 관련 ===
+*.pid
+docker-compose.override.yml
+
+# === Redis / RabbitMQ / Kafka 데이터 파일 ===
+*.rdb
+*.aof
